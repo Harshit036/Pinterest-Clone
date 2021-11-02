@@ -1,0 +1,6 @@
+.container {
+  width: 95%;
+  margin: auto;
+  column-count: 6;
+  column-gap: 1em;
+}

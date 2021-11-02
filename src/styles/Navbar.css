@@ -1,0 +1,69 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 5em;
+}
+
+.logo {
+  display: inline-block;
+  margin: 10px 10px;
+}
+
+.logo img {
+  height: 22px;
+  margin-left: 28px;
+}
+
+.HomeBtn {
+  background-color: black;
+  border-radius: 34px;
+  font-size: 16px;
+  padding: 16px;
+  color: white;
+  border: none;
+  white-space: nowrap;
+  height: 48px;
+  min-width: 60px;
+}
+
+.TodayBtn {
+  margin: 10px;
+  font-size: 20px;
+  border: none;
+  background: none;
+  font-weight: 500;
+}
+
+.TodayBtn:hover {
+  background-color: rgba(128, 128, 128, 0.233);
+  border-radius: 34px;
+}
+
+/* Search */
+
+.searchbar {
+  width: 70%;
+  background-color: #efefef;
+  border-radius: 27px;
+}
+.searchbar form {
+  display: flex;
+  align-items: center;
+}
+
+.search_box {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  color: #333;
+  font-size: 16px;
+  font-weight: normal;
+  padding: 0;
+  width: 100%;
+}
+
+.material-icons {
+  padding: 15px;
+  color: rgb(92, 90, 90);
+}

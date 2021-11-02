@@ -1,17 +1,15 @@
-import './App.css';
-import Items from './components/Items';
-import Navbar from './components/Navbar';
-
-
-
+import Pins from "./components/Pins";
+import Navbar from "./components/Navbar";
 
 function App() {
+  const onSearchSubmit = (term) => {
+    console.log(term);
+  };
   return (
     <>
-    <Navbar/>     
-    <Items/>
+      <Navbar onSubmit={onSearchSubmit} />
+      <Pins />
     </>
-
   );
 }
 
