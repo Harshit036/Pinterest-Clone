@@ -1,14 +1,16 @@
+import React, { useState } from "react";
 import Pins from "./components/Pins";
 import Navbar from "./components/Navbar";
+import PicturecardTemp from "./components/PicturecardTemp";
 
 function App() {
-  const onSearchSubmit = (term) => {
-    console.log(term);
-  };
+  const [InputKey, setInputKey] = useState("random");
+
   return (
     <>
-      <Navbar onSubmit={onSearchSubmit} />
-      <Pins />
+      <PicturecardTemp></PicturecardTemp>
+      {/* <Navbar onSubmit={setInputKey} />
+      <Pins InputKey={InputKey} /> */}
     </>
   );
 }
