@@ -1,6 +1,7 @@
-.navbar {
+.navbar_pinterest {
   display: flex;
   align-items: center;
+  width: 100%;
   height: 5em;
 }
 
@@ -66,4 +67,28 @@
 .material-icons {
   padding: 15px;
   color: rgb(92, 90, 90);
+}
+
+.drop__pinterest {
+  justify-self: flex-end;
+}
+
+.icons_right {
+  display: flex;
+  align-items: center;
+  width: 14%;
+  height: 5em;
+  justify-content: space-around;
+}
+
+.dropdown-menu.show {
+  display: block;
+  left: -160px;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
 }
